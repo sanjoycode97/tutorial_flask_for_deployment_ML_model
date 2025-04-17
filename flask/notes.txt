@@ -1,0 +1,21 @@
+https://127.0.0.1:5000/
+
+https:-hyper text transfer protocol - basically set of rules (it will transfer the data from frontend to backend and vice versa)
+
+127.0.0.1- ip address location of the virtual server [local ip address which means it will work on locally where flask application developed]
+5000- port number just like a flat or house number
+
+/ -> called as route
+
+domain name- it will replace the ip address ip address hiddenly attch with domain name 
+
+
+whatever business logic we will write that should be  between the initialisation and route
+
+app=Flask(__name__)
+
+Q.why we use __name__?
+
+ans: so that flask can figure it out where the template or static folder located
+
+
